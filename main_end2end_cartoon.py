@@ -230,3 +230,4 @@ for i in range(0,len(fls_names)):
         os.path.join(cur_dir, '..', '..', '..', 'examples', ain),
         os.path.join(cur_dir, '..', 'out.mp4')
     ))
+    os.chdir('../../..')
